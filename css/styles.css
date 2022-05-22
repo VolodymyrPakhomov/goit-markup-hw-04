@@ -166,16 +166,20 @@ padding-bottom: 32px;
 
 .group-item{
     list-style-type: none;
-    margin-left: 50px;
+    margin-left: 30px;
     }
 
 .link-contact{
+    align-items: center;
+    display: flex;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.4;
     letter-spacing: 0.02em;
     color: var(--primary-text-color);
     text-decoration: none;
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 
 .site-nav.list{
@@ -432,6 +436,9 @@ color: var(--primary-text-color);
 .socials {
     display: flex;
     justify-content: center;
+    align-items: center;
+
+    margin-top: 16px;
 }
 
 .socials-item:not(:last-child) {
